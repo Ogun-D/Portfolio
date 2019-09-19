@@ -1,0 +1,39 @@
+.banner {
+  display: flex;
+  min-height: 100%;
+  /*margin: 0 4%;*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 130px;
+}
+
+.banner h1 {
+  margin-bottom: 20px;
+  font-size: 60px;
+}
+
+.banner h4 {
+  opacity: 0.8;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+
+.banner a {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 6px 10px;
+  width: 80px;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: #212529;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  /*margin-right: 8px;*/
+
+  }
