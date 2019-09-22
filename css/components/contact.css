@@ -1,0 +1,37 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #F3F3F3;
+  padding: 25px 0 25px 0;
+}
+
+.contact-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contact-content {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.contact-content a {
+  text-decoration: none;
+  color: #212529;
+  opacity: 0.8;
+}
+
+.contact-content a:hover {
+  opacity: 1;
+}
+
+.contact-content i {
+  font-size: 30px;
+}

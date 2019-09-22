@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   margin: 0 2%;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
   /*border-bottom: 1px solid #909090;*/
 
 }
