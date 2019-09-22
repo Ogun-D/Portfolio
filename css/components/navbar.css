@@ -1,12 +1,11 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  margin: 0 2%;
-  padding-top: 20px;
-  position: sticky;
-  top: 0;
-  /*border-bottom: 1px solid #909090;*/
+  background-color: #FCFCFC;
+}
 
+.navbar.hide {
+  transform: translateY(-100%);
 }
 
 .my-name {
@@ -14,24 +13,22 @@
   margin-bottom: 0;
 }
 
-.navbar-links {
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
-
-.navbar-links li {
+/*.navbar-links li {
   display: inline;
   margin-left: 30px;
   font-size: 16px;
-}
+}*/
 
 .navbar a {
   text-decoration: none;
   color: dimgray;
   font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 .navbar a:hover {
   color: black;
   transition: 0.5s;
 }
+
+

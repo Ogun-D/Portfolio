@@ -1,11 +1,11 @@
 .banner {
   display: flex;
   min-height: 100%;
-  /*margin: 0 4%;*/
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 130px;
+  margin-bottom: 60px;
 }
 
 .banner h1 {

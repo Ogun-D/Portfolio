@@ -58,4 +58,14 @@
   color: #212529;
 }
 
+@media (max-width: 768px) {
+  .project-card {
+    transition: none;
+  }
+
+  .project-card:hover {
+    transform: none;
+  }
+}
+
 
