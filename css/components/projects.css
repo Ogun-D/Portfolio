@@ -1,7 +1,6 @@
 #projects {
   display: flex;
   flex-direction: column;
-  /*justify-content: center;*/
   align-items: center;
   padding: 10px 20px;
   margin-bottom: 40px;
@@ -22,7 +21,6 @@
   flex-direction: column;
   height: 400px;
   width: 250px;
-  /*box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);*/
   box-shadow: 1px 1px 8px -5px rgba(0, 0, 0, 0.6);
   border-radius: 2px;
   margin-bottom: 40px;
@@ -40,9 +38,6 @@
   margin-bottom: 20px;
 }
 
-.card-image {
-  /*border-bottom: 1px solid #E6E6E6;*/
-}
 
 .card-content {
   padding: 10px 30px;
