@@ -12,9 +12,9 @@
 }
 
 .project-body {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-column-gap: 25px;
 }
 
 .project-card {
@@ -40,6 +40,10 @@
   margin-bottom: 20px;
 }
 
+.card-image {
+  /*border-bottom: 1px solid #E6E6E6;*/
+}
+
 .card-content {
   padding: 10px 30px;
 }
@@ -59,6 +63,10 @@
 }
 
 @media (max-width: 768px) {
+  .project-body {
+    display: block
+  }
+
   .project-card:hover {
     transform: none;
   }
