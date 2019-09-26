@@ -1,11 +1,18 @@
 #about {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 10px 20px;
   margin-bottom: 40px;
 }
 
-#about h4 {
+.about-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title h4 {
   margin-bottom: 15px;
 }
 
@@ -39,17 +46,16 @@
   #about img {
     height: 300px;
     width: 250;
+    margin-bottom: 1em;
     object-fit: cover;
     margin-right: 0;
   }
 
-  .about-top {
+  .about-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-
-  .about-content {
+    text-align: justify;
+    font-size: 1.1em;
     padding: 20px;
   }
 }
