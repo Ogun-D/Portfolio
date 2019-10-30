@@ -16,8 +16,8 @@
   margin-bottom: 15px;
 }
 
-
 #about img {
+  width: 400px;
   height: 400px;
   object-fit: cover;
   margin-right: 30px;
