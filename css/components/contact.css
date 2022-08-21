@@ -1,13 +1,3 @@
-#contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #F3F3F3;
-  padding: 25px 0 25px 0;
-}
-
 .contact-title {
   display: flex;
   flex-direction: column;
@@ -19,17 +9,16 @@
 .contact-content {
   display: flex;
   width: 200px;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-content a {
   text-decoration: none;
-  color: #212529;
-  opacity: 0.8;
-}
-
-.contact-content a:hover {
-  opacity: 1;
+  color: #fff;
+  border-radius: 10%;
+  background-color: #212529;
+  margin: 0 0.4rem;
 }
 
 .contact-content i {
